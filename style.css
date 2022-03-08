@@ -1,0 +1,38 @@
+body{
+
+background-image: url('https://i.pinimg.com/736x/cc/1c/6a/cc1c6a3b4b0fc1107aceba5606bc440a.jpg');
+color: lightblue;
+
+
+}
+
+label:hover{
+    background-color: pink;
+}
+
+canvas{
+
+    border-style: groove;
+    border-color: darkgoldenrod;
+    border-width: 4px;
+    
+
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+
+from{ box-shadow: 1px 1px 28px palevioletred;}
+to{ box-shadow: 1px 1px 28px darkgreen;}
+
+
+}
+
+#ColumbiaMiEncanto:hover{
+background-color:green ;
+color: palevioletred;
+}
+
+#ColumbiaMiEncanto {background-color:palevioletred; color:green};
